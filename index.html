@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="sticky-header">
+        <div class="container">
+            <h1 class="logo">Nova Agency</h1>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#services" data-translate="navServices">Servicios</a></li>
+                    <li><a href="#projects" data-translate="navProjects">Proyectos</a></li>
+                    <li><a href="#testimonials" data-translate="navTestimonials">Testimonios</a></li>
+                    <li><a href="#contact" data-translate="navContact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button id="langToggle">EN</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+                <h2 data-translate="heroTitle">Creamos experiencias digitales increíbles</h2>
+                <p data-translate="heroSubtitle">Diseño. Desarrollo. Resultados.</p>
+                <a href="#contact" class="cta-button" data-translate="heroCTA">Trabajemos juntos</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h3 data-translate="servicesTitle">Nuestros Servicios</h3>
+            <div class="service-cards">
+                <div class="card">
+                    <h4 data-translate="service1Title">Diseño UX/UI</h4>
+                    <p data-translate="service1Desc">Interfaces intuitivas y atractivas.</p>
+                </div>
+                <div class="card">
+                    <h4 data-translate="service2Title">Desarrollo Web</h4>
+                    <p data-translate="service2Desc">Sitios rápidos, seguros y responsivos.</p>
+                </div>
+                <div class="card">
+                    <h4 data-translate="service3Title">Branding</h4>
+                    <p data-translate="service3Desc">Tu marca con personalidad y coherencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+                <h3 data-translate="projectsTitle">Proyectos Destacados</h3>
+                <div class="project-gallery">
+                        <img src="image.png" alt="Proyecto 1" />
+                        <img src="image copy.png" alt="Proyecto 2" />
+                        <img src="image copy 2.png" alt="Proyecto 3" />
+                </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h3 data-translate="testimonialsTitle">Qué dicen nuestros clientes</h3>
+            <div class="testimonial">
+                <p data-translate="testimonial1">“Un equipo profesional, creativo y muy eficiente.”</p>
+                <span>- Carla M.</span>
+            </div>
+            <div class="testimonial">
+                <p data-translate="testimonial2">“Superaron nuestras expectativas en cada paso.”</p>
+                <span>- Estudio Lumen</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h3 data-translate="contactTitle">Contacto</h3>
+            <form>
+                <input type="text" placeholder="Nombre" data-translate-placeholder="namePlaceholder" />
+                <input type="email" placeholder="Correo electrónico" data-translate-placeholder="emailPlaceholder" />
+                <textarea placeholder="Mensaje" data-translate-placeholder="messagePlaceholder"></textarea>
+                <button type="submit" data-translate="contactButton">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nova Agency. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

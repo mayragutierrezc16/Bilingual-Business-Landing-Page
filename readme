@@ -1,0 +1,58 @@
+# 🌐 Bilingual Business Landing Page
+
+Una plantilla moderna, responsive y minimalista para una landing page empresarial. Ideal para negocios, freelancers o estudios creativos. Incluye soporte para cambio de idioma (Español ↔ English) con un solo clic.
+
+## 🧩 Características
+
+- ✅ Diseño limpio y profesional
+- 🌍 Soporte bilingüe (ES/EN)
+- 💡 Modo claro / modo oscuro
+- ⚡ 100% responsive (mobile-first)
+- 🧠 Código simple en HTML, CSS y JS puro (sin frameworks)
+- 🎯 Ideal para landing de servicios, portfolios o productos
+
+## 📁 Estructura de Archivos
+
+```
+📦 landing-page
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+```
+
+## 🗺️ Secciones Incluidas
+
+- Header con navegación sticky
+- Hero con CTA destacado
+- Servicios
+- Proyectos
+- Testimonios
+- Formulario de contacto
+- Footer
+
+## 🚀 Cómo usar
+
+1. Cloná o descargá este repositorio.
+2. Abrí `index.html` en tu navegador para ver la página.
+3. Editá los textos, íconos o estilos según tus necesidades.
+4. Cambiá fácilmente el idioma haciendo clic en el botón "EN"/"ES".
+
+## 🎨 Personalización
+
+- Cambiá colores y fuentes desde `styles.css`.
+- Agregá más idiomas desde `script.js` (objeto `translations`).
+- Integra con un servicio de backend para que el formulario funcione.
+
+## 🛠️ Tecnologías
+
+- HTML5
+- CSS3
+- JavaScript (puro, sin librerías)
+
+## 📸 Demo
+
+
+---
+
+💻 Hecho con 💖 por [May Gutierrez](https://mayragutierrez.gumroad.com)
